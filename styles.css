@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #ffffff, #ffffff);
+	margin: 0;
+	padding: 0;
+}
+
+
+.resume{
+	width: 10in;
+	height: 14.15in;
+	background: rgb(255, 255, 255);
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.Upper{
+	height:4in;
+	width:10in ;
+	background-color: #e1e2e4;
+}
+.name-image{
+	display: flex;
+	margin-left: 30px;
+	height: 1.5in;
+	margin-bottom: 40px;
+}
+.name-role{
+	margin-right: 480px;
+	margin-top: 60px;
+}
+.name{
+	font-size: 30px;
+	font-weight: bold;
+}
+.role{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.image img{
+	border:solid 2px #1e7ba3;
+	margin-top: 20px;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+.contact-profile{
+	display: flex;
+	margin-left: 30px;
+}
+.contacts{
+	margin-right: 30px;
+}
+.contact{
+	width: 200px;
+	height: 40px;
+	border:solid 1px black;
+	margin-bottom: 4px;
+	padding-left: 8px;
+	padding-top: 3px;
+}
+
+.contact-type{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.c-detail{
+	font-size: 12px;
+}
+.profile-title{
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.profile-line{
+	width: 600px;
+	height: 2px;
+	background-color: black;
+	margin-bottom: 15px;
+
+}
+.profile-detail{
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 45px;
+  text-align: justify;
+}
+.middle{
+    display: flex;
+	height:4.15in;
+	width:10in ;
+}
+.achivements{
+	width: 3.3in;
+	height: 4.15in;
+	background-color:#3ca2d2 ;
+}
+.ac-title{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.ac-names-links{
+	margin-left: 15px;
+	
+}
+.ac-icon{
+	color:white;
+	margin-right: 10px;
+	margin-top:12px;
+	margin-left: 5px;
+}
+.ac-name-link{
+	display: flex;
+	margin-bottom: 10px;
+	border: solid 1px white;
+	margin-right: 15px;
+	height: 40px;
+	border-radius: 5px;
+}
+.ac-name-link:hover{
+  background-color: rgb(233, 189, 107);
+}
+.ac-link a i{
+	margin-left: 5px;
+	color:white;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.ac-name a{
+	color:white;
+	font-size: 12px;
+	margin-top: 5px;
+	font-weight: 500;
+}
+.skills{
+	width: 3.3in;
+	height: 4.15in;
+	background-color:#0988bb ;
+}
+.skill-title{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.personal-skill{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.skill-rows{
+  margin-left: 20px;
+}
+.skill-row{
+	display: flex;
+	margin-bottom: 10px;
+}
+.skill-name{
+	width: 120px;
+	color:white;
+	font-size: 12px;
+	font-weight: 500;
+	margin-right: 10px;
+}
+.level{
+	height: 12px;
+	width: 150px;
+	border:solid 1px white;
+}
+.level-90{
+	height: 11px;
+	width: 135px;
+	background-color: white;
+}
+.level-75{
+	height: 11px;
+	width: 100px;
+	background-color: white;
+}
+.level-50{
+	height: 11px;
+	width: 80px;
+	background-color: white;
+}
+.lang-hobby{
+	width: 3.4in;
+	height: 4.15in;
+	background-color:#0374a0 ;
+}
+.lnaguage-title{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+.lang-rows{
+	margin-left: 20px;
+}
+.lang-row{
+	display: flex;
+	margin-bottom: 10px;
+}
+.lang-name{
+	width: 120px;
+	color:white;
+	font-size: 12px;
+	font-weight: 500;
+	margin-right: 10px;
+}
+.hobby-title{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color:white;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.hobbies{
+	margin-left: 90px;
+}
+.hob-row{
+	display: flex;
+	margin-bottom: 10px;
+}
+.hob-name-icon{
+	padding: 4px;
+	width: 70px;
+	height: 60px;
+	border:solid 1px white;
+	margin-right: 10px;
+	text-align: center;
+	border-radius: 5px;
+	
+}
+.hob-icon{
+	margin-top: 5px;
+	color: white;
+	margin-bottom: 10px;
+}
+.hob-name{
+	font-size: 12px;
+	color:white;
+}
+.lower{
+	height:6in;
+	width:10in ;
+	background-color: #e1e2e4;
+	display: flex;
+}
+.edu-ref{
+	width: 3.3in;
+	
+}
+.edu{
+	margin-left: 25px;
+
+}
+.edu-title{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.edu-line{
+	height: 2px;
+	width: 2.8in;
+	background-color: black;
+	margin-bottom: 20px;
+}
+.edu-detail{
+	margin-bottom: 20px;
+}
+.edu-yr{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.edu-deg{
+	font-size: 14px;
+	font-weight: 500;
+	color:#3fa1d2;
+	margin-bottom: 2px;
+}
+.edu-inst{
+	font-size: 14px;
+	font-weight: 500;
+	color:#393c3d;
+	margin-bottom: 2px;
+}
+.cg{
+	font-size: 12px;
+	font-weight: 500;
+	color:#393c3d;
+	margin-bottom: 2px;
+}
+.ref{
+	margin-left: 25px;
+
+}
+.ref-title{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.ref-line{
+	height: 2px;
+	width: 2.8in;
+	background-color: black;
+	margin-bottom: 20px;
+}
+.ref-detail{
+	margin-bottom: 20px;
+}
+.ref-name{
+	font-size: 16px;
+	font-weight: 600;
+	color:#3fa1d2;
+	margin-bottom: 2px;
+}
+.ref-deg{
+	font-size: 14px;
+	font-weight: 500;
+	color:#3fa1d2;
+	margin-bottom: 2px;
+}
+.ref-inst{
+	font-size: 14px;
+	font-weight: 500;
+	color:#393c3d;
+	margin-bottom: 2px;
+}
+.ref-gmail a{
+	text-decoration: none;
+	font-size: 12px;
+	
+}
+.ref-phone{
+	margin-top: 4px;
+	font-size: 12px;
+}
+.exp{
+  margin-left: 20px;
+}
+.exp-title{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 600;
+
+}
+.exp-line{
+	height: 2px;
+	width: 6.37in;
+	background-color: black;
+	margin-bottom: 20px;
+}
+.exp-detail{
+	margin-bottom: 15px;
+}
+.exp-yr{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+.deseg-company{
+	display: flex;
+	margin-bottom: 5px;
+}
+.exp-deseg{
+	margin-right: 20px;
+	font-size: 16px;
+	color:#3fa1d2;
+	font-weight: 700;
+}
+.at{
+	margin-right: 20px;
+	font-weight: bold;
+}
+.exp-company{
+	font-size: 16px;
+	color:#3fa1d2;
+	font-weight: 700;
+}
+.exp-breif{
+	text-align: justify;
+	font-size: 12px;
+	line-height: 14px;
+	margin-right: 30px;
+}
+
+.project{
+	margin-left: 20px;
+  }
+  .pro-title{
+	  margin-top: 15px;
+	  font-size: 18px;
+	  font-weight: 600;
+  
+  }
+  .pro-line{
+	  height: 2px;
+	  width: 6.37in;
+	  background-color: black;
+	  margin-bottom: 20px;
+  }
+  .pro-detail{
+	margin-bottom: 15px;
+}
+  .pro-name-link{
+	  display: flex;
+	  margin-bottom: 10px;
+  }
+  .pro-name{
+	  margin-right: 10px;
+  }
+  .pro-name a{
+	  font-size: 16px;
+	  color: #3fa1d2;
+
+  }
+  .pro-breaf{
+	text-align: justify;
+	font-size: 12px;
+	line-height: 14px;
+	margin-right: 30px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	text-decoration: underline;
+
+}
